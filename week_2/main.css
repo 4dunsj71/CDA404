@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'muli', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+
+}
+#content{
+    padding: 3%;
+}
+
+nav{
+    background-colour: #C6BAFF;
+}
+
+nav ul{ 
+    width: 115px;
+    margin-left: 30%;
+    margin: 0 auto;
+}
+nav ul li {
+    display: inline;
+}
+
+section {
+    border: 2px solid #7B70B3;
+    padding: 3%;
+    width: 33%;
+    float: left;
+}
