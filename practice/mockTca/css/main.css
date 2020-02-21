@@ -1,7 +1,92 @@
-body{
+body
+{
     background-color:#f5adff;
     font-family: Arial, Helvetica, sans-serif;
+    width: 920px;
+    margin:0 auto;
 }
-header{
+#content
+{
+    width: 920px;
+    align-content: center;
+}
+
+h1
+{
+    text-align:center;
+    font-size:xx-large;
+}
+h2,
+h3,
+h4
+{ 
+    text-align:center;
+    font-size: large;  
+}
+.box{
+    width: 45%;
+    padding-top:5px;
+    border-style:1px solid black;
+    padding-left:3px;
+    padding-bottom:10px;
+}
+#about_me
+{
+    text-align: center;
+    width:45%;
+    float: left;
+    border:1px solid black;
     
+
 }
+#background
+{
+    text-align: center;
+    width:45%;
+    float: right;
+    padding: right 10%;
+    border:1px solid black;
+
+}
+#table th, #table td
+{
+    text-align: left;
+    width: 50%;
+    height:50px;
+    border:1px solid black;
+    background-color:white;
+}
+
+#nav
+{
+    
+    text-align: center;
+    width:100%;
+    height:100px;
+    display:inline-block;
+    background-color: white;
+}
+ul li
+{
+    
+    display: inline;
+    list-style-type: none;
+    padding-right:20px;
+}
+.footer
+{
+    width:500px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:black;
+  border-width:1px;
+  padding-left:3px;
+  padding-bottom:10px;
+
+}
+#foot
+{
+    text-align:center;
+    border:1px solid black;
+}
+
