@@ -1,0 +1,20 @@
+body
+{
+    background-color:#5ca1f1;
+    font-family: 'Open Sans';
+    
+}
+#nav ul li
+{
+    display:inline;
+
+}
+#text1
+{
+    font-size:55px bold #FFFFFF;
+
+}
+#text2
+{
+    font-size:55px bold #333333;
+}

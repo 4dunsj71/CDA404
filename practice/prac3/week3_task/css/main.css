@@ -1,0 +1,27 @@
+
+@media (max-width:400px){}
+
+body
+{
+    background-color:#5ca1f1;
+    font-family: 'Open Sans';
+    
+}
+#nav ul li
+{
+    text-align: center;
+    display:inline;
+    padding-right: 15px;
+
+}
+.text1
+{
+    font-size:55px;
+    color:#ffffff;
+    font-style: bold;
+
+}
+.text2
+{
+    font-size:55px bold #333333;
+}

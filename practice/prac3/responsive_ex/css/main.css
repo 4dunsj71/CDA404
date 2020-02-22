@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%
+  }
+  
+  .wrapper {
+    overflow: auto;
+  }
+  
+  .left, .right {
+    float: left;
+    width: 50%;
+  }
+  
+  .bottom-section {
+    margin-top: 20%;
+    width: 100%;
+  }
+  
+  
+  @media (max-width : 400px) {
+      .bottom-section {
+          display: none;
+      }
+  
+    .left, .right {
+           margin-top: 10%;
+           float: left;
+           width: 100%;
+     } 
+  
+    p {
+      font-size: 12px;
+    }
+  
+  }
