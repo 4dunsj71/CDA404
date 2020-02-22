@@ -48,6 +48,16 @@ h4
     border:1px solid black;
 
 }
+#background p
+{
+    font-size: small;
+    padding-left: 8%;
+}
+#about_me p
+{
+    font-size: small;
+    padding-left:7%;
+}
 #table th, #table td
 {
     text-align: left;
@@ -74,18 +84,12 @@ ul li
 }
 .footer
 {
-    width:500px;
+  width:30%;
   padding-top:5px;
-  border-style:solid;
-  border-color:black;
-  border-width:1px;
-  padding-left:3px;
-  padding-bottom:10px;
+  padding-left:28%;
+  text-align: center;
+  display:inline-block;
 
 }
-#foot
-{
-    text-align:center;
-    border:1px solid black;
-}
+
 
