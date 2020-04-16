@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Javascript aaaaaaa</title>
+        <!--
+            need to call the actual script
+        -->
+        <script type="text/javascript">
+            function showName(){
+                var nameValue = document.getElementById("name").value;
+
+                document.getElementById("demo").innerHTML = "hello" + nameValue;
+            }
+        </script>
+    </head>
+    <body>
+        <p> <input type="text" placeholder="enter name" id="name"></p>
+
+        <p><button onclick="showName()">Click Me</button></p>
+
+        <p id="demo"></p>
+    </body>
+</html>
