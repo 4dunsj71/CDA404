@@ -1,0 +1,54 @@
+.page
+{
+    font-family: 'Monsterrat',;
+    position:relative;
+    max-width:100%;
+    min-width:100%;
+}
+#header
+{
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+    left:50%;
+}
+
+.features
+{
+    
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top:50%;
+    display:inline-block
+}
+#characterSheet
+{
+    position:absolute;
+    left:50%;
+    text-align: center;
+    transform:translate(25%,110%)
+    
+
+}
+#diceRoller
+{
+    position:absolute;
+    left:25%;
+    text-align: center;
+    transform:translate(-25%,0)
+}
+#alignment
+{
+    position:absolute;
+    left:50%;
+    text-align: center;
+    transform:translate(25%,0)
+}
+#SpellBook
+{
+    position:absolute;
+    left:25%;
+    text-align: center;
+    transform:translate(-25%,110%)
+}
