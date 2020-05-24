@@ -1,23 +1,29 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    background-color: #78B0AE;
+    color: #FCEEAC;
   }
 #header
 {
     font-style: oblique;
     font-size: xx-large;
     display:inline-block;
+    
 }
-#characterSheet
+#h
 {
-height: 120px;
-width: 120px;
-padding:50px;
-margin:50px auto;
-border:1px solid grey;
-border-radius: 20px;
-font-size: 20px;
-display: inline-block;
+  font-style:bold,oblique;
+  text-decoration: transparent;
+}
+#features
+{
+  font-size: 6px;
+  font-style:bold;
+  text-decoration: transparent;
+
 }
 #diceRoller
 {
@@ -25,30 +31,33 @@ display: inline-block;
   width: 120px;
   padding:50px;
   margin:50px auto;
-  border:1px solid grey;
+  border:2px solid #FCEEAC;
   border-radius: 20px;
   font-size: 20px;
   display: inline-block;
+  transform:translate(0,10.5%);
 }
-#alignment
-{
-  height: 120px;
-  width: 120px;
-  padding:50px;
-  margin:50px auto;
-  border:1px solid grey;
-  border-radius: 20px;
-  font-size: 20px;
-  display: inline-block;
-}
+
 #SpellBook
 {
+ height: 120px;
+  width: 120px;
+  padding:50px;
+  margin:50px auto;
+  border:2px solid #FCEEAC;
+  border-radius: 20px;
+  font-size: 20px;
+  display: inline-block; 
+}
+#inventory
+{
   height: 120px;
   width: 120px;
   padding:50px;
   margin:50px auto;
-  border:1px solid grey;
+  border:2px solid #FCEEAC;
   border-radius: 20px;
   font-size: 20px;
   display: inline-block;
+  transform:translate(0,10.5%);
 }

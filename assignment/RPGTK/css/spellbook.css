@@ -1,0 +1,32 @@
+* {
+    font-family: 'Anton', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
+      text-align: center;
+      background-color: #78B0AE;
+      color:#FCEEAC;  
+    }
+    button {
+      background-color:#558683;
+      border-radius: 6px;
+      border: none;
+      color: #FCEEAC;
+      padding: 10px;
+      margin:20px;
+      align-content: center;
+      text-transform: uppercase;
+      width: 200px;
+      cursor: pointer;
+    }
+
+table{
+    border-collapse:collapse;
+    
+}
+table,th,td{
+    border: 2px solid #FCEEAC;
+}
+
+
+        
+    

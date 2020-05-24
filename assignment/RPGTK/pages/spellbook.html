@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/spellbook.css">
+    <script src="/js/spellbook.js"></script>
+    <title>spellbook</title>
+</head>
+<body>
+    <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+
+	<INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+    <div id="table">
+        <TABLE id="dataTable" width="350px">
+            <tr>
+                <td>
+                    select
+                </td>
+                <td>
+                    row number
+                </td>
+                <td>
+                    spell name
+                </td>
+                <td>
+                    caster level
+                </td>
+                <td>
+                    range
+                </td>
+                <td id = "effect">
+                    effect
+                </td>
+                
+            </tr>
+            <TR>
+                <TD><INPUT type="checkbox" name="chk"/></TD>
+                <TD> 1 </TD>
+                <TD> <INPUT type="text" /></TD>
+                <TD> <INPUT type="text" /></TD>
+                <TD> <INPUT type="text" /></TD>
+                <TD> <INPUT type="text" /></TD>
+                
+            </TR>
+        </TABLE>
+    </div>
+    <a href="/index.html"><button id="goback">Go Back</button></a>
+</body>
+</html>
