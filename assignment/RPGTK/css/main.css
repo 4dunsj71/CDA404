@@ -3,9 +3,10 @@
 
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #78B0AE;
-    color: #FCEEAC;
+    background-color: #4a807d;
+    color: #fff4bf;
   }
+
 #header
 {
     font-style: oblique;
@@ -20,7 +21,7 @@
 }
 #features
 {
-  font-size: 6px;
+  font-size: 12px;
   font-style:bold;
   text-decoration: transparent;
 
@@ -31,9 +32,9 @@
   width: 120px;
   padding:50px;
   margin:50px auto;
-  border:2px solid #FCEEAC;
+  border:2px solid #fff4bf;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 22px;
   display: inline-block;
   transform:translate(0,10.5%);
 }
@@ -44,10 +45,11 @@
   width: 120px;
   padding:50px;
   margin:50px auto;
-  border:2px solid #FCEEAC;
+  border:2px solid #fff4bf;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 22px;
   display: inline-block; 
+
 }
 #inventory
 {
@@ -55,9 +57,11 @@
   width: 120px;
   padding:50px;
   margin:50px auto;
-  border:2px solid #FCEEAC;
+  border:2px solid #fff4bf;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 22px;
   display: inline-block;
   transform:translate(0,10.5%);
 }
+
+#indexlabels{display:none;}

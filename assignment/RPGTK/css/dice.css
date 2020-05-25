@@ -3,19 +3,22 @@
 
   font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #78B0AE;
+    background-color: #4a807d;
+    color: #fff4bf;
   }
   button {
-    background-color:#558683;
+    background-color:#264240;
     border-radius: 6px;
     border: none;
-    color: #FCEEAC;
+    color: #fff4bf;
     padding: 10px;
     text-transform: uppercase;
     width: 200px;
     cursor: pointer;
+    font-size:30px;
   }
   #placeholder {
+    background-color:#264240;
     height: 100px;
     width: 100px;
     padding: 50px;
@@ -23,12 +26,14 @@
     border:2px solid #FCEEAC;
     border-radius: 10px;  
     font-size:80px;
-    color: #FCEEAC;
+    color: #fff4bf;
   }
   #dicechoice
   {
-    color: #FCEEAC;
+    background-color:#264240;
+    color: #fff4bf;
     font-size: 30px;
     border-radius:5px;
-    border: 2px solid #FCEEAC;
+    border: 2px solid #fff4bf;
   }
+  #dicelabels{display:none;}

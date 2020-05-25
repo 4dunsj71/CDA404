@@ -1,18 +1,25 @@
+@media screen and (max-width:600px){
+  #table{
+    width:90%;
+  }
+}    
+
 * {
     font-family: 'Anton', sans-serif;
     
     font-family: 'Roboto', sans-serif;
       text-align: center;
-      background-color: #78B0AE;
-      color:#FCEEAC;  
+      background-color: #4a807d;
+      color: #fff4bf;
     }
     button {
-      background-color:#558683;
+      background-color:#264240;
       border-radius: 6px;
-      border: none;
-      color: #FCEEAC;
+      border:2px solid #fff4bf;
+      color: #fff4bf;
       padding: 10px;
       margin:20px;
+      font-size:30px;
       align-content: center;
       text-transform: uppercase;
       width: 200px;
@@ -21,9 +28,12 @@
 
 table{
     border-collapse:collapse;
+    font-size: 20px;
+
     
 }
 table,th,td{
-    border: 2px solid #FCEEAC;
+    border: 2px solid #fff4bf;
+    
 }
 
